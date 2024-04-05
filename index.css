@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar {
+    background-color: #343a40; 
+    color: #fff; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;  
+    font-weight: bold; 
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -350px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: right 0.3s ease;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.my-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+.my-table thead tr {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.my-table th {
+    padding: 10px; 
+    text-align: center; 
+}
+
+.my-table td {
+    padding: 10px; 
+    border: 1px solid #dee2e6; 
+}
+
+.UD{
+    display: flex;
+    justify-content: center;
+    gap: 20px ;
+}
+
+.tambah{
+    background-color: rgb(23, 109, 180);
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    margin-top: 20px;
+}
+.update{
+    background-color: rgb(188, 207, 12);
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    height: 35px;
+    color: white;
+}
+.delete{
+    background-color: rgb(218, 13, 13);
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    height: 35px;
+    color: white;
+}
